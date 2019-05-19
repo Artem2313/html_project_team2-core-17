@@ -7,7 +7,6 @@
 
   &__title {
     margin: 0 auto;
-    // width: 223px;
     margin-bottom: 35px;
     font-family: Acrom-ExtraBold;
     font-weight: 800;
@@ -85,6 +84,7 @@
     border: 0px;
     &:hover {
       background-color: $aque-color;
+      cursor: pointer;
     }
   }
 
