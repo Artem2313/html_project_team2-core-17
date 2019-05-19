@@ -1,3 +1,4 @@
+$baseFontSize: 16px;
 * {
   margin: 0;
   padding: 0;
@@ -21,10 +22,10 @@ ul {
   list-style: none;
 }
 
-// @function pxToRem($val) {
-//   $remSize: $val/$baseFontSize;
-//   @return #{$remSize}rem;
-// }
+@function pxToRem($val) {
+  $remSize: $val/$baseFontSize;
+  @return #{$remSize}rem;
+}
 
 .container {
   max-width: pxToRem(1200px);
