@@ -1,0 +1,167 @@
+.section4 {
+  color: $white-color;
+  background: radial-gradient(circle at 50%, #182f4a, #0b223c);
+  padding-bottom: 2.5625rem;
+  padding-top: 2.3125rem;
+
+  &__box {
+    margin-left: 0.875rem;
+    margin-right: 0.875rem;
+  }
+
+  &__box__text__paragraf {
+    font-family: 'Acrom-ExtraBold', sans-serif;
+    font-size: 1rem;
+
+  }
+
+  &__box__desk__description__text1::before {
+    content: "";
+    display: block;
+    width: 3.75rem;
+    height: 0.125rem;
+    background-color: $aque-color;
+    margin-left: 0.125rem;
+    margin-top: 1.1875rem;
+    margin-bottom: 1.5625rem;
+  }
+
+  &__box__desk__description__text1 {
+    font-family: 'Acrom-ExtraBold', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  &__box__desk__description__text1__span {
+    color: $grey-color;
+    font-family: 'Acrom-Regular', sans-serif;
+    font-size: 0.875rem;
+
+  }
+
+  &__box__desk__two__title__h2 {
+    font-family: 'Acrom-ExtraBold', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 1.4375rem;
+    font-family: 'Acrom-ExtraBold', sans-serif;
+    color: $aque-color;
+  }
+
+  &__box__desk__two__button__btn {
+    color: $white-color;
+    width: 100%;
+    height: 4.375rem;
+    font-size: 0.875rem;
+    border: none;
+    font-family: 'Acrom-ExtraBold', sans-serif;
+    background-color: $orange-color;
+    box-shadow: 0 0 0.625rem 0 $orange-color;
+  }
+
+  &__box__desk__two__button__btn:hover {
+    background-color: $aque-color;
+    box-shadow: 0 0 0.625rem 0 $aque-color;
+
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .section4 {
+    padding-top: 6.5rem;
+    padding-bottom: 7.125rem;
+  }
+
+  .section4__box {
+    width: 75rem;
+    margin-left: 0;
+    margin-right: 0;
+
+
+
+    &__desk {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__desk__description__text1 {
+      font-size: 1.2rem;
+      line-height: 1.5;
+    }
+
+    &__desk__two {
+      order: 0;
+      width: 60%;
+    }
+
+    &__desk__description {
+      order: 1;
+      width: 30%;
+    }
+
+    &__desk__two__title__h2 {
+      font-size: 2.8rem;
+      margin-bottom: 3.875rem;
+    }
+
+    &__desk__two__button__btn {
+      height: 6.8125rem;
+      width: 42.6875rem;
+      font-size: 1.875rem;
+    }
+
+    &__text__paragraf {
+      font-size: 1.875rem;
+      margin-bottom: 3.375rem;
+      width: 60%;
+    }
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .section4 {    
+    padding-bottom: 4rem;
+    padding-top: 3.75rem;
+
+    &__box__text__paragraf {
+      font-family: 'Acrom-ExtraBold', sans-serif;
+      font-size: 1.25rem;
+      margin-left: 2.6875rem;
+      margin-right: 2.0625rem;
+    }
+
+    &__box__desk__two__title__h2 {
+      font-family: 'Acrom-ExtraBold', sans-serif;
+      font-size: 2.5rem;
+      margin-left: 2.75rem;
+
+    }
+
+    &__box__desk__description__text1::before {
+      content: "";
+      display: block;
+      width: 3.75rem;
+      height: 0.125rem;
+      background-color: $aque-color;
+      margin-top: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
+
+    &__box__desk__description {
+      font-size: 1rem;
+      margin-bottom: 2.25rem;
+      margin-left: 2.6875rem;
+      margin-right: 17.875rem;
+    }
+
+    &__box__desk__two__button__btn {
+      width: 33.125rem;
+      height: 4.375rem;
+      font-size: 1.125rem;
+      margin-left: 2.8125rem;
+    }
+  }
+}
