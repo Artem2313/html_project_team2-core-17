@@ -10,20 +10,24 @@
   counter-reset: my-awesome-counter1;
 }
 
+.section5__topbox {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 .section5__mainbox {
   margin: 0 auto;
-  max-width: 155px;
+  max-width: 80%;
   padding-bottom: 15px;
   position: relative;
 }
 
 .section5__imagecontainer {
-  width: 50%;
-  height: 50%;
+  width: 60%;
   position: absolute;
   top: 0;
   left: 40%;
-  transform: translateX(-50%);
+  transform: translateX(-35%);
   z-index: -1;
 }
 
@@ -32,10 +36,14 @@
   height: auto;
 }
 
+.section5__mainbox1__title {
+  display: none;
+}
+
 .section5__mainbox__title {
   font-family: "Acrom-ExtraBold", sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 27px;
+  line-height: 42px;
   color: $black-color;
   padding: 12px 0 5px 0;
   text-transform: uppercase;
@@ -43,7 +51,7 @@
 
 .section5__mainbox__subtitle {
   font-family: "Acrom-ExtraBold", sans-serif;
-  font-size: 10px;
+  font-size: 16px;
   color: $black-color;
   background-color: $grey-color;
   width: fit-content;
@@ -51,8 +59,8 @@
 
 .section5__item__paragraph {
   font-family: "Acrom-Regular", sans-serif;
-  font-size: 10px;
-  line-height: 14px;
+  font-size: 16px;
+  line-height: 30px;
   color: $section-one-text-color;
   padding-bottom: 10px;
 }
@@ -70,19 +78,23 @@
 }
 
 @media(min-width: 768px) {
+  .section5__topbox {
+    max-width: 768px;
+  }
+
   .section5__mainbox {
-    max-width: 320px;
+    max-width: 60%;
     padding-bottom: 15px;
   }
 
   .section5__imagecontainer {
-    width: 20%;
+    width: 40%;
     left: 80%;
 
   }
 
   .section5__mainbox--size {
-    max-width: 460px;
+    max-width: 90%;
   }
 }
 
@@ -91,6 +103,7 @@
     max-width: 1200px;
     display: flex;
     justify-content: center;
+    padding: 0 20px;
   }
 
   .section5__mainbox {
@@ -98,7 +111,35 @@
     margin: 0;
   }
 
+  .section6__item__title {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .section5__mainbox__subtitle {
+    font-size: 20px;
+  }
+
   .section5__mainbox--marginright {
     margin-right: 40px;
+  }
+
+  .section5__imagecontainer {
+    width: 25%;
+  }
+
+  .section6__mainbox__title {
+    display: none;
+  }
+
+  .section5__mainbox1__title {
+    display: block;
+    max-width: 1200px;
+    font-size: 48px;
+    line-height: 40px;
+    font-family: "Acrom-ExtraBold", sans-serif;    
+    color: $black-color;    
+    margin: 0 auto;
+    padding: 0 20px 26px 20px;
   }
 }

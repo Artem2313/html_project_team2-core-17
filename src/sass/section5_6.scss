@@ -1,0 +1,12 @@
+.section5_6 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;  
+}
+
+
+@media (min-width:1200px) {
+  .section5_6 {
+    flex-direction: column;
+  }
+}
