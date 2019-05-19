@@ -1,256 +1,299 @@
 .header {
-    background: radial-gradient(circle at 50%, #182f4a, #181c27);
+  background: radial-gradient(circle at 50%, #182f4a, #181c27);
+  padding-top: 26px;
+  padding-bottom: 30px;
 }
-.header__logo-wraper {
-    padding-top: 26px;
-    padding-left: 46px;
-    margin-bottom: 27px;
-}
-.header__logo {
-    min-width: 100px;
-    min-height: 30px;
-    display: flex;
-}
-.header__text {
-    color:$white-color;
-    font-family: 'Acrom-Regular', sans-serif;
-    font-size: 14px;
-    text-align: left;
-    padding-left: 30px;
-    margin-bottom: 23px;
-}
-.header__title {
-    padding-left: 30px;
-    font-family: 'Acrom-ExtraBold', sans-serif;
-    font-size: 20px;
-    color: $aque-color;
-    text-align: left;
-    margin-bottom: 21px;
-}
-.header__descripyion {
-    padding-left: 30px;
-    font-family: 'Acrom', sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    color:$white-color;
-    text-align: left;
-    margin-bottom: 24px;
-}
-.header__meeting {
-    padding-left: 30px;
-    font-family: 'Acrom-ExtraBold', sans-serif;
-    font-size: 14px;
-    color: $orange-color;
-    text-align: left;
-    margin-bottom: 8px;
-}
-.header__data {
-    padding-left: 30px;
-    font-family: 'Acrom-ExtraBold', sans-serif;
-    font-size: 20px;
-    color: $orange-color;
-    text-align: left;
-    margin-bottom: 16px;
-}
-.header__form__wraper {
-    background-color:$white-color;
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    width: 90%;
-    margin-bottom: 12px;
-}
-.header__form__title {
-    font-family: 'Acrom-ExtraBold', sans-serif;
-    font-size: 16px;
-    color: $black-color;
-    text-align: left;
-    padding-top: 19px;
-    margin: 0 auto;
-    margin-bottom: 12px;
-    width: 80%;
-}
-.header__form__text {
-    font-family: 'Acrom-Light', sans-serif;
-    font-size: 13px;
-    color: $black-color;
-    text-align: left;
-    margin: 0 auto;
-    margin-bottom: 14px;
-    width: 80%;
-}
-.header__form__input__window {
-    width: 80%;
-    height: 40px;
-    margin: 0 auto;
-    border: 1px solid $input-border;
-    margin-bottom: 12px;
-}
-.header__form__input__window::placeholder {
-    padding-left: 15px;
-    color: $placeholder;
-    font-family: 'Acrom-Medium', sans-serif;
-    font-size: 14px;
-    text-align: left;
 
+.header__logo-wraper {
+  padding-right: 1rem;
+  padding-left: 46px;
+  margin-bottom: 27px;
 }
+
+.header__logo {
+  min-width: 100px;
+  min-height: 30px;
+  display: flex;
+}
+
+.header__text {
+  color: $white-color;
+  font-family: 'Acrom-Regular', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 30px;
+  margin-bottom: 23px;
+}
+
+.header__title {
+  padding-left: 30px;
+  font-family: 'Acrom-ExtraBold', sans-serif;
+  font-size: 18px;
+  color: $aque-color;
+  text-align: left;
+  margin-bottom: 21px;
+}
+
+.header__descripyion {
+  padding-left: 30px;
+  font-family: 'Acrom', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: $white-color;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.header__meeting {
+  padding-left: 30px;
+  font-family: 'Acrom-ExtraBold', sans-serif;
+  font-size: 14px;
+  color: #f5ad28;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.header__data {
+  padding-left: 30px;
+  font-family: 'Acrom-ExtraBold', sans-serif;
+  font-size: 20px;
+  color: #f5ad28;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.header__form__wraper {
+  background-color: $white-color;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 12px;
+  padding-top: 19px;
+  padding-bottom: 26px;
+  box-shadow: 0 0 10px 0 $white-color;
+}
+
+.header__form__title {
+  font-family: 'Acrom-ExtraBold', sans-serif;
+  font-size: 16px;
+  color: $black-color;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 12px;
+  width: 80%;
+}
+
+.header__form__text {
+  font-family: 'Acrom-Light', sans-serif;
+  font-size: 13px;
+  color: $black-color;
+  text-align: left;
+  margin: 0 auto;
+  margin-bottom: 14px;
+  width: 80%;
+}
+
+.header__form__input__window {
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid #717171;
+  margin-bottom: 12px;
+}
+
+.header__form__input__window::placeholder {
+  padding-left: 15px;
+  color: $placeholder;
+  font-family: 'Acrom-Medium', sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
 .header__form__btn {
-    width: 80%;
-    height: 40px;
-    margin: 0 auto;
-    background-color: $orange-color;
-    color: $white-color;
-    text-transform: uppercase;
-    font-family: 'Acrom-ExtraBold', sans-serif;
-    text-align: center;
-    margin-bottom: 26px;
-    border: none;
-    cursor: pointer;
-    box-shadow: 0 0 10px 0 $orange-color;
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+  background-color: $orange-color;
+  color: $white-color;
+  text-transform: uppercase;
+  font-family: 'Acrom-ExtraBold', sans-serif;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 $orange-color;
 }
+
 .header__form__btn:hover {
-    background-color: $aque-color;
-    box-shadow: 0 0 10px 0 $aque-color;
+  background-color: $aque-color;
+  box-shadow: 0 0 10px 0 $aque-color;
 }
+
 .header__form__politic {
-    display: flex;
-    color: $section-one-text-color;
-    justify-content: center;
-    font-family: 'Acrom-Regular', sans-serif;
-    font-size: 13px;
-    padding-bottom: 30px;
+  display: flex;
+  color: $section-one-text-color;
+  justify-content: center;
+  font-family: 'Acrom-Regular', sans-serif;
+  font-size: 13px;
+
 }
 
 @media (min-width: 768px) {
-    .header__logo-wraper {
+    .header {
         padding-top: 40px;
-        padding-left: 91px;
-        margin-bottom: 33px;
     }
-    .header__text {
-        padding-left: 75px;
-        margin-bottom: 42px;
-        width: 80%;
-    }
-    .header__title {
-        padding-left: 75px;
-        margin-bottom: 28px;
-        font-size: 40px;
-    }
-    .header__descripyion {
-        padding-left: 75px;
-        font-size: 18px;
-        margin-bottom: 32px;
-        width: 90%;
-    }
-    .header__meeting {
-        padding-left: 75px;
-        font-size: 18px;
-        margin-bottom: 10px;
-    }
-    .header__data {
-        padding-left: 75px;
-        font-size: 40px;
-        margin-bottom: 22px;
-    }
-    .header__form__wraper {
-        width: 80%;
-        margin-bottom: 9px;
-    }
-    .header__form__title {
-        font-size: 24px;
-        padding-top: 34px;
-        margin-bottom: 22px;
-        text-align: center;
-        width: 64%;
-    }
-    .header__form__text {
-        text-align: center;
-        margin-bottom: 27px;
-        width: 80%;
-    }
-    .header__form__input__window {
-        margin-bottom: 12px;
-    }
-    .header__form__input__window:nth-of-type(3) {
-        margin-bottom: 27px;
-    }
+
+  .header__logo-wraper {
+    padding-left: 90px;
+    margin-bottom: 33px;
+  }
+  .header__text {
+    padding-left: 75px;
+    margin-bottom: 42px;
+    width: 80%;
+  }
+
+  .header__title {
+    padding-left: 75px;
+    margin-bottom: 28px;
+    font-size: 40px;
+  }
+
+  .header__descripyion {
+    padding-left: 75px;
+    font-size: 18px;
+    margin-bottom: 32px;
+    width: 90%;
+  }
+
+  .header__meeting {
+    padding-left: 75px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .header__data {
+    padding-left: 75px;
+    font-size: 40px;
+    margin-bottom: 22px;
+  }
+
+  .header__form__wraper {
+    width: 80%;
+    padding-top: 34px;
+    padding-bottom: 41px;
+    margin-bottom: 9px;
+  }
+
+  .header__form__title {
+    font-size: 24px;
+    margin-bottom: 22px;
+    text-align: center;
+    width: 64%;
+  }
+
+  .header__form__text {
+    text-align: center;
+    margin-bottom: 27px;
+    width: 80%;
+  }
+
+  .header__form__input__window {
+    margin-bottom: 12px;
+  }
+
+  .header__form__input__window:nth-of-type(3) {
+    margin-bottom: 27px;
+  }
 }
+
 @media(min-width: 1200px) {
-    .header__logo-wraper {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding-top: 37px;
-        margin-bottom: 72px;
-    }
-    .header .container {
-        display: flex;
-        justify-content: space-between;
-    }
-    .header__wraper {
-        width: 60%;
-    }
-    .header__text {
-        font-size: 20px;
-        margin-bottom: 54px;
-        width: auto;
-        padding-left: 0;
-    }
-    .header__title {
-        margin-bottom: 60px;
-        font-size: 60px;
-        width: auto;
-        padding-left: 0;
-    }
-    .header__descripyion {
-        font-family: 'Acrom-Regular', sans-serif;
-        font-size: 35px;
-        margin-bottom: 50px;
-        font-weight: 400;
-        width: auto;
-        padding-left: 0;
-    }
-    .header__meeting {
-        font-size: 21px;
-        margin-bottom: 10px;
-        width: auto;
-        padding-left: 0;
-    }
-    .header__data {
-        font-size: 40px;
-        margin-bottom: 133px;
-        width: auto;
-        padding-left: 0;
-    }
-    .header__form {
-        width: 35%;
-    }
-    .header__form__wraper {
-        width: auto;
-        margin-bottom: 9px;
-        padding-top: 43px;
-        padding-bottom: 50px;
-    }
-    .header__form__title {
-        font-size: 28px;
-        padding-top: 0;
-        margin-bottom: 31px;
-        text-align: left;
-        width: 80%;
-    }
-    .header__form__text {
-        text-align: left;
-        font-size: 18px;
-        margin-bottom: 32px;
-        width: 80%;
-    }
-    .header__form__input__window {
-        margin-bottom: 38px;
-        height: 60px;
-    }
-    .header__form__btn {
-        height: 60px;
-        margin-bottom: 0;
-    }
-    
+  .header__logo-wraper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    padding-left: 1rem;
+  }
+  .header {
+    padding-top: 37px;
+    padding-bottom: 133px;
+  }
+
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__wraper {
+    width: 60%;
+  }
+
+  .header__text {
+    font-size: 20px;
+    margin-bottom: 54px;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .header__title {
+    margin-bottom: 60px;
+    font-size: 60px;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .header__descripyion {
+    font-family: 'Acrom-Regular', sans-serif;
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .header__meeting {
+    font-size: 21px;
+    margin-bottom: 10px;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .header__data {
+    font-size: 40px;
+    margin-bottom: 0;
+    width: auto;
+    padding-left: 0;
+  }
+
+  .header__form {
+    width: 35%;
+  }
+
+  .header__form__wraper {
+    width: auto;
+    margin-bottom: 9px;
+    padding-top: 43px;
+    padding-bottom: 50px;
+  }
+  .header__form__title {
+    font-size: 28px;
+    padding-top: 0;
+    margin-bottom: 31px;
+    text-align: left;
+    width: 80%;
+  }
+  .header__form__text {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 32px;
+    width: 80%;
+  }
+  .header__form__input__window {
+    margin-bottom: 38px;
+    height: 60px;
+  }
+  .header__form__btn {
+    height: 60px;
+    margin-bottom: 0;
+  }
 }
