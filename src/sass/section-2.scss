@@ -82,6 +82,7 @@
     color: #fff;
     background-color: $orange-color;
     border: 0px;
+    text-transform: uppercase;
     &:hover {
       background-color: $aque-color;
       cursor: pointer;
@@ -117,6 +118,7 @@
 &__button {
   width: 530px;
   height: 70px;
+  text-transform: unset;
 }
 }
 }
@@ -136,6 +138,7 @@
       padding-top: 66px;
       &-text {
         font-size: 18px;
+        line-height: 1.6;
       }
       &::before {
       counter-increment: section02;

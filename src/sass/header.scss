@@ -100,10 +100,10 @@
   margin: 0 auto;
   border: 1px solid #717171;
   margin-bottom: 12px;
+  padding-left: 1rem;
 }
 
-.header__form__input__window::placeholder {
-  padding-left: 15px;
+.header__form__input__window::placeholder {  
   color: $placeholder;
   font-family: 'Acrom-Medium', sans-serif;
   font-size: 14px;

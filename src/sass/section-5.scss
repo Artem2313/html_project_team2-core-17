@@ -38,6 +38,7 @@
 
 .section5__mainbox1__title {
   display: none;
+  line-height: 1.4;
 }
 
 .section5__mainbox__title {
@@ -134,12 +135,12 @@
 
   .section5__mainbox1__title {
     display: block;
-    max-width: 1200px;
-    font-size: 48px;
-    line-height: 40px;
+    width: 46rem;
+    font-size: 48px;    
     font-family: "Acrom-ExtraBold", sans-serif;    
     color: $black-color;    
-    margin: 0 auto;
-    padding: 0 20px 26px 20px;
+    margin: 0;
+    padding: 0 20px 0 20px;
+    margin-bottom: 2rem;
   }
 }
