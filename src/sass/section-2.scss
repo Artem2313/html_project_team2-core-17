@@ -1,5 +1,5 @@
 .section02 {
-  max-width: 320px;
+  max-width: 100%;
   margin: 0 auto;
   padding-top: 35px;
   padding-bottom: 38px;
@@ -100,7 +100,6 @@
 
 @media (min-width:768px) {
 .section02 {
-  max-width:768px;
   padding-top: 50px;
   padding-bottom: 87px;
   &__title {
@@ -124,7 +123,6 @@
 
 @media (min-width:1200px) {
   .section02 {
-    max-width: 1200px;
     padding-top: 87px;
     padding-bottom: 99px;
     &__title {
